@@ -10,3 +10,11 @@ define('VIEWS_PATH', ROOT_PATH . '/views');
 define('MODELS_PATH', ROOT_PATH . '/models');
 define('CONTROLLERS_PATH', ROOT_PATH . '/controllers');
 define('UTILS_PATH', ROOT_PATH . '/utils');
+
+// User roles
+define('ROLE_READER', 'reader');
+define('ROLE_ADMIN', 'admin');
+
+// Book status
+define('STATUS_AVAILABLE', 'available');
+define('STATUS_BORROWED', 'borrowed');
